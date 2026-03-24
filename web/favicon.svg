@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="256" fill="#0A0A0A"/>
+  <!-- Gold outer ring -->
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#D4AF37" stroke-width="8"/>
+  <!-- Dashed inner ring -->
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="8 8" opacity="0.4"/>
+
+  <!-- Corner suit decorations -->
+  <text x="90" y="115" font-size="32" text-anchor="middle" fill="#D4AF37" opacity="0.45" font-family="serif">♠</text>
+  <text x="422" y="115" font-size="32" text-anchor="middle" fill="#CC1A1A" opacity="0.45" font-family="serif">♥</text>
+  <text x="90" y="420" font-size="32" text-anchor="middle" fill="#CC1A1A" opacity="0.45" font-family="serif">♦</text>
+  <text x="422" y="420" font-size="32" text-anchor="middle" fill="#D4AF37" opacity="0.45" font-family="serif">♣</text>
+
+  <!-- Spade icon — left lobe -->
+  <circle cx="222" cy="218" r="60" fill="#D4AF37"/>
+  <!-- Spade — right lobe -->
+  <circle cx="290" cy="218" r="60" fill="#D4AF37"/>
+  <!-- Spade — top point -->
+  <polygon points="256,130 190,255 322,255" fill="#D4AF37"/>
+  <!-- Dark cutout — left -->
+  <circle cx="222" cy="224" r="48" fill="#0A0A0A"/>
+  <!-- Dark cutout — right -->
+  <circle cx="290" cy="224" r="48" fill="#0A0A0A"/>
+  <!-- Dark cutout — triangle -->
+  <polygon points="256,142 198,252 314,252" fill="#0A0A0A"/>
+  <!-- Stem -->
+  <rect x="238" y="252" width="40" height="54" rx="4" fill="#D4AF37"/>
+  <!-- Stem base flare -->
+  <polygon points="208,306 304,306 290,282 222,282" fill="#D4AF37"/>
+
+  <!-- Red accent line -->
+  <rect x="188" y="314" width="136" height="4" rx="2" fill="#CC1A1A"/>
+
+  <!-- TRUCKI text -->
+  <text
+    x="256" y="388"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="48"
+    font-weight="700"
+    text-anchor="middle"
+    fill="#D4AF37"
+    letter-spacing="8">TRUCKI</text>
+
+  <!-- Divider ornament -->
+  <line x1="148" y1="342" x2="250" y2="342" stroke="#D4AF37" stroke-width="0.8" opacity="0.4"/>
+  <line x1="262" y1="342" x2="364" y2="342" stroke="#D4AF37" stroke-width="0.8" opacity="0.4"/>
+  <text x="256" y="346" font-family="serif" font-size="12" text-anchor="middle" fill="#D4AF37" opacity="0.6">✦</text>
+</svg>
